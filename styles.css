@@ -1,0 +1,111 @@
+:root{
+    --color-roxo: #363f5f;
+}
+/* Global ====== */
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: min(90vw, 50rem);
+
+    margin: auto;
+}
+
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--color-roxo);
+
+    font-weight: normal;
+}
+
+/* Header */
+
+header h1{
+    background: #FF7200;
+    padding: 2rem 0 10rem ;
+    text-align: center;
+}
+
+#logo {
+    color: #fff;
+    font-weight: 100;
+}
+
+/* Balance ========= */
+
+#balance {
+    margin-top: -8rem;
+
+}
+
+#balance h2{
+    
+    margin-top: 0;
+}
+
+/* Cards ===== */
+.card {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem ;
+
+    margin-bottom: 2rem;
+
+    color: var(--color-roxo);
+}
+
+.card h3{
+    font-weight: normal;
+    font-size: 1rem;
+
+    margin-top: 1rem;
+}
+
+.card p{
+        font-size: 2rem;
+        /*line-height: 3rem;*/
+}
+
+.card.total {
+    background: #140083;
+    color: white;
+}
+/* Table ===== */
+#data-table{
+   width: 100%;
+   border-spacing: 0 0.5rem;
+}
+table th {
+    background:white;
+    font-weight: normal;
+    padding: 1rem 2rem;
+
+    text-align: left;
+
+    color: #969cb3;
+ }
+table td {
+   background:white;
+}
+
+table thead tr:first-child{
+    
+}
+
+/* Footer ===== */
+
+footer{
+    width: 18.75rem;
+
+    margin: auto;
+}
